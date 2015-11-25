@@ -1,0 +1,460 @@
+/*设置a i div 等标签默认参数*/
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -18px;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.a1{
+    color: inherit;
+}
+/*设置div宽度的类*/
+.w-1190{
+    min-width: 1190px;
+}
+
+.w-990{
+    width: 990px;
+    margin: 0 auto;
+}
+/*左fudong*/
+.floatLeft{
+    float: left;
+}
+/*绿色字体主题*/
+.fontGreen{
+    color: #009900;
+}
+/*红色字体主题*/
+.fontRed{
+    color: red;
+}
+/*橙色字体主题*/
+.fontYellow{
+    color: orange;
+}
+/*绿色背景主题*/
+.bgGreen{
+    background-color: #0aa770;
+}
+
+.header{
+    width: 100%;
+    height: 248px;
+}
+
+.header .toolBar{
+    border-bottom: 1px solid #ccc;
+}
+/*定义logo样式*/
+.header .toolBar .imgLogo{
+    width: 190px;
+    height: 60px;
+    border: 0;
+    float: left;
+}
+
+.header .toolBar .imgPic{
+    width: 220px;
+    height: 60px;
+    border: 0;
+    float: right;
+}
+
+.header .clothes{
+    width: 150px;
+    position: relative;
+    top: -15px;
+    margin-left: 315px;
+    z-index: 1000;
+}
+
+.header .searchBar{
+    padding: 32px 0 35px 100px;
+    position: relative;
+}
+/*设置搜索框百度logo*/
+.header .searchBar img{
+    width: 104px;
+    height: 34px;
+    display: inline-block;
+    /*background: left top no-repeat;*/
+}
+/*设置百度搜索框样式*/
+.header .searchBar .searchInput{
+    width: 538px;
+    height: 40px;
+    margin-right: -4px;
+    border: 1px solid #8a8a8a;
+    padding: 0 10px 0 10px;
+    outline: none;
+    border-right: 0;
+    display: inline-block;
+}
+/*设置搜索按钮掩饰*/
+.header .searchBar .searchBtn{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: -2px;
+    border: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url('images/indexIcon.png') no-repeat -20px 0;
+}
+/*热点搜索词汇div样式*/
+.header .hotSearchCon{
+    width: 1000px;
+    margin-left: -105px;
+    top: 5px;
+    position: relative;
+    text-align: center;
+}
+/*热点搜索链接样式*/
+.header .hotSearchCon a{
+    font-size: 12px;
+    line-height: 20px;
+    outline: 0;
+    margin: 0 21px 0 0;
+}
+
+.header .hotSearchCon a:not(.fontGreen){
+    color: #666;
+}
+
+.header .hotSearchCon .hotSearchw{
+    margin: 0 16px 0 -18px;
+}
+/*设置默认首页链接*/
+.header .hao123Col .defaultSet{
+    width: 60px;
+    height: 25px;
+    line-height: 1.9;
+    margin-top: 20px;
+    margin-right: 8px;
+    display: block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    /*background: url('images/indexIcon.png') no-repeat -20px -172px;*/
+}
+/*定义超链接标签样式*/
+.header .hao123Col a:not(.defaultSet),.header .hao123Links a{
+    padding-left: 9px;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 10px;
+    color: #999;
+    text-decoration: none;
+}
+
+.header .weahter .weahterArrow{
+    margin-left: 4px;
+    vertical-align: middle;
+    width: 9px;
+    height: 6px;
+    background: url('images/indexIcon.png') no-repeat -52px -97px;
+    display: inline-block;
+}
+
+.header .weahter .weahterInfo{
+    line-height: 60px;
+    vertical-align: middle;
+    width: 26px;
+    height: 60px;
+    background: url('images/cloud.png') no-repeat 0 13px;
+    display: inline-block;
+}
+
+.header .mailSet .mailIcon{
+    height: 28px;
+    line-height: 60px;
+    padding: 0 0 0 31px;
+    text-align: left;
+    background: url('images/indexIcon.png') no-repeat -96px -118px;
+    display: inline-block;
+}
+
+.header .skinSet .skinIcon{
+    height: 28px;
+    line-height: 60px;
+    padding: 0 0 0 31px;
+    text-align: left;
+    background: url('images/indexIcon.png') no-repeat -244px -118px;
+    display: inline-block;
+}
+/*定义导航栏样式*/
+.header .navBar{
+    height: 40px;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-top: 2px solid #099e6a;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fcfcfc;
+}
+
+.header .navBar ul{
+    padding: 0;
+    margin: 0;
+}
+
+.header .navBar li{
+    width: 101px;
+    line-height: 38px;
+    float: left;
+    text-align: center;
+    display: list-item;
+    overflow: hidden;
+}
+
+.header .navBar .first{
+    width: 81px;
+}
+
+.header .navBar .first a{
+    color: #fff;
+}
+/*网页主体内容布局*/
+.article{
+    /*width: 100%;*/
+    height: 420px;
+    overflow: hidden;
+    background-color: green;
+}
+/*网页主体右边布局*/
+.article .articleRight{
+    float: left;
+    width: 100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    background-color: #eff0f0;
+}
+
+.article .articleInner{
+    margin-left: 280px;
+}
+
+.articleInner .famoussite ul{
+    width: 665px;
+    padding: 11px 0 5px 3px;
+    list-style: none;
+    display: block;
+    font-size: 14px;
+}
+
+.articleInner .famoussite li{
+    width: 103px;
+    padding: 6px 0 4px 9px;
+    margin: 5px 1px 1px 0;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.articleInner .famoussite li a{
+    min-width: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-left: 20px;
+    outline: 0;
+}
+
+.articleInner .famoussite .famous2{
+    margin: 1px 5px 5px 2px;
+    border-top: 1px solid #eaeaea;
+    width: 645px;
+    left: 25px;
+    position: relative;
+}
+
+.articleInner .famous2 li a,.articleInner .famous2 li,.articleInner .famous2 ul{
+    padding-left: 0;
+}
+
+.articleInner .famous2 ul{
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+.articleInner .siteBar{
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 12px;
+    overflow: hidden;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.articleInner .siteBar ul{
+    list-style: none;
+    display: block;
+    margin-top: 8px;
+}
+
+.articleInner .siteBar li{
+    display: inline-block;
+}
+
+.articleInner .siteBar a{
+    color: #3b5998;
+    margin-right: 20px;
+}
+/*网页主体左边布局*/
+.article .articleLeft{
+    float: left;
+    width: 280px;
+    margin-left: -100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    background-color: #eff0f0;
+}
+
+.articleLeft .wsLider{
+    width: 278px;
+    height: 140px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+}
+
+.articleLeft .wsLider .itemPic{
+    width: 278px;
+    height: 70px;
+    border: 0;
+}
+
+.articleLeft .wsLider .itemText{
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 20px 0 8px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: top;
+}
+
+.articleLeft .startBar{
+    width: 278px;
+    height: 261px;
+    padding: 9px 0 10px 18px;
+    border: 1px solid #cecece;
+    margin: 15px 0 0 0;
+    background-color: #fff;
+}
+
+.articleLeft .startBar ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.articleLeft .startBar li{
+    display: inline-block;
+    padding-left: 25px;
+    width: 125px;
+    margin: 7px 0 15px 0;
+}
+
+.articleInner .famoussite{
+    width: 698px;
+    height: 270px;
+    margin-left: 12px;
+    border: 1px solid #adb;
+    background-color: #fff;
+}
+
+.articleInner .siteBar{
+    width: 675px;
+    height: 32px;
+}
+
+.articleInner .bottomMain{
+    width: 698px;
+    height: 114px;
+    margin-left: 12px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+}
+
+.articleInner .bottomMain ul{
+    display: block;
+    list-style: none;
+    margin: 8px 0 0 7px;
+    padding-left: 35px;
+}
+
+.articleInner .bottomMain li{
+    display: inline-block;
+    margin-top: 8px;
+    width: 90px;
+}
+
+.articleInner .bottomMain li a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-right: 25px;
+    outline: 0;
+}
+/*网页底部footer布局*/
+.footer{
+    width: 100%;
+    height: 70px;
+}
+
+.footer .footerWrap{
+    margin: 20px auto;
+    width: 990px;
+}
+
+.footer .imgFoot{
+    width: 228px;
+    height: 28px;
+    border: 0;
+    float: left;
+    background: url("images/sprite_footer.png") no-repeat;
+}
+
+.footer .footLink{
+    float: left;
+}
+
+.footer div a{
+    vertical-align:baseline;
+    margin: 0px 5px 0 15px;
+    line-height: 35px;
+}
+
+.footer .icon{
+    margin-left: 20px;
+    padding-left: 34px;
+    width: 36px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    float: left;
+    color: #666;
+    box-sizing: content-box;
+}
+
+.footer .footIcon{
+    float: right;
+}
